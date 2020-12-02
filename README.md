@@ -1,5 +1,4 @@
-# numerical-anal
-Numerical Analysis Problems and Solutions
+## Numerical Analysis Problems and Solutions
 
 #### Boundary Value Problem (part 1)
 1. Collocation method
