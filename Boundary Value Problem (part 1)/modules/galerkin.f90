@@ -107,7 +107,7 @@ contains
 
         if (is_draw) then
             call gp%title(info // " Galerkin method")
-            call gp%xlabel('-1 <= X <= 1')
+            call gp%xlabel('X')
             call gp%ylabel('Yn(x) = φ0(x) + a1 * φ1(x) + ... + an * φn(x)')
             call gp%plot(x_list, solution_ext, 'with lines')
         end if
