@@ -22,7 +22,7 @@ program main
     integer, parameter :: dp = kind(0.d0), N_TEST = 3, X_POINTS = 100
 
     character *16 :: info
-    real(dp), parameter :: X_MIN = -1._dp, X_MAX = 1._dp, K = 25._dp
+    real(dp), parameter :: X_MIN = -1._dp, X_MAX = 1._dp, K = 12._dp
     real(dp) :: a, b
 
     real(dp), dimension(:), allocatable :: sol1, sol2, sol3, sol4
