@@ -36,7 +36,7 @@ program main
     print '(a9)', "Input n: "
     read *, n
 
-    allocate(sol1(1:n)); allocate(sol2(1:n)); allocate(sol3(1:n)); allocate(sol4(1:n))
+    allocate(sol1(1:n), sol2(1:n), sol3(1:n), sol4(1:n))
 
     call noised_linspace(X_MIN, X_MAX, x_list, noise=0._dp)
 
@@ -111,6 +111,8 @@ program main
             x2=x_list, y2=sol2_ext, ls2='with lines title "Integral least squares method"', &
             x3=x_list, y3=sol3_ext, ls3='with lines title "Discrete least squares method"', &
             x4=x_list, y4=sol4_ext, ls4='with lines title "Galerkin method"')
+            
+    deallocate(sol1, sol2, sol3, sol4)
 
 end program
 
