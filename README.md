@@ -2,6 +2,7 @@
 
 #### Boundary Value Problem
 Solve boundary value problem of the form
+
 ![bv_problem](https://user-images.githubusercontent.com/62307154/101565570-5b2b0100-39de-11eb-91e6-01b4779acd68.png)
 
 1. Collocation method
