@@ -38,6 +38,8 @@ subroutine finite_difference_method(AA, BB, x_min, x_max, n, f, a, p, q, alpha1,
 
 - [example2](https://github.com/Papelbon/numerical-anal/blob/main/Boundary%20Value%20Problem/task2.f90)
 
+![task3](https://user-images.githubusercontent.com/62307154/101656825-33768000-3a54-11eb-8aee-81c412ef1dd7.png)
+
 - [example3](https://github.com/Papelbon/numerical-anal/blob/main/Boundary%20Value%20Problem/task3.f90)
 
 - [example4](https://github.com/Papelbon/numerical-anal/blob/main/Boundary%20Value%20Problem/task4.f90)
