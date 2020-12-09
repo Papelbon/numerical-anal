@@ -3,7 +3,7 @@
 ### Boundary Value Problem
 Solve boundary value problem of the form
 
-![bv_problem](https://user-images.githubusercontent.com/62307154/101570883-59663b00-39e8-11eb-89ed-0c20c04ebde0.png)
+![bv_problem](https://user-images.githubusercontent.com/62307154/101572047-fc1eb980-39e8-11eb-866a-cdca0f3c25f2.png)
 1. Collocation method
 ```fortran
 subroutine collocation_method(x_min, x_max, n, solution, solution_ext, f, a, p, q, basic, &
