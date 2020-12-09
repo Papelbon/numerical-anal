@@ -21,11 +21,11 @@ subroutine disc_least_squares_method(x_min, x_max, n, solution, solution_ext, f,
 ```
 4. Galerkin method
 ```fortran
-subroutine galerkin_method(x_min, x_max, n, solution, solution_ext, f, a, p, q, basic,&
+subroutine galerkin_method(x_min, x_max, n, solution, solution_ext, f, a, p, q, basic, &
             x_points, is_print, is_draw, info)
 ```
 5. Finite Difference method
 ```fortran
-subroutine finite_difference_method(AA, BB, x_min, x_max, n, f, a, p, q, alpha1, beta1, alpha2, beta2, &
-            y_coef, y_coef_0, y_coef_n, x_grid, sol, is_print, is_draw, info)
+subroutine finite_difference_method(AA, BB, x_min, x_max, n, f, a, p, q, alpha1, beta1, &
+            alpha2, beta2, y_coef, y_coef_0, y_coef_n, x_grid, sol, is_print, is_draw, info)
 ```
