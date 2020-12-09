@@ -30,9 +30,11 @@ subroutine finite_difference_method(AA, BB, x_min, x_max, n, f, a, p, q, alpha1,
             alpha2, beta2, y_coef, y_coef_0, y_coef_n, x_grid, sol, is_print, is_draw, info)
 ```
 #### Examples
-1) ![task1](https://user-images.githubusercontent.com/62307154/101655478-b8f93080-3a52-11eb-9785-2bd8ec22d53a.png)
+![task1](https://user-images.githubusercontent.com/62307154/101655478-b8f93080-3a52-11eb-9785-2bd8ec22d53a.png)
 
-[example1](https://github.com/Papelbon/numerical-anal/blob/main/Boundary%20Value%20Problem/task1.f90)
+- [example1](https://github.com/Papelbon/numerical-anal/blob/main/Boundary%20Value%20Problem/task1.f90)
+
+![task2](https://user-images.githubusercontent.com/62307154/101656386-b0552a00-3a53-11eb-88e2-002531193f12.png)
 
 - [example2](https://github.com/Papelbon/numerical-anal/blob/main/Boundary%20Value%20Problem/task2.f90)
 
