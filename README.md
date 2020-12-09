@@ -3,7 +3,7 @@
 #### Boundary Value Problem
 Solve boundary value problem of the form
 
-![bv_problem](https://user-images.githubusercontent.com/62307154/101565570-5b2b0100-39de-11eb-91e6-01b4779acd68.png)
+![bv_problem](https://user-images.githubusercontent.com/62307154/101566414-025c6800-39e0-11eb-8918-11a1bebe166e.png)
 
 1. Collocation method
 2. Integral Least Squares method
