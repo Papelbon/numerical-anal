@@ -3,7 +3,7 @@
 ### Boundary Value Problem
 Solve boundary value problem of the form
 
-![bv_problem](https://user-images.githubusercontent.com/62307154/101572047-fc1eb980-39e8-11eb-866a-cdca0f3c25f2.png)
+![bv_problem](https://user-images.githubusercontent.com/62307154/102728194-5a2d9400-433b-11eb-9867-07939b8e91a0.png)
 1. Collocation method
 ```fortran
 subroutine collocation_method(x_min, x_max, n, solution, solution_ext, f, a, p, q, basic, &
@@ -51,5 +51,4 @@ Estimate the solution of the time-dependent (time-independent) heat equation ove
 
 Steady form:
 
-![steady](https://user-images.githubusercontent.com/62307154/102727842-60227580-4339-11eb-932b-0bdd187b6b2c.png)
-
+![ht_steady](https://user-images.githubusercontent.com/62307154/102728052-ac21ea00-433a-11eb-8159-427b70423560.png)
