@@ -56,3 +56,11 @@ Time-independent form:
 Time-dependent form:
 
 ![time-dependent](https://user-images.githubusercontent.com/62307154/102730899-44be6700-4347-11eb-894f-a5c407dacb8e.png)
+1. Finite Difference methods (1D Steady State Heat Equation)
+```fortran
+subroutine fd_centered_heat_transfer_steady(n, a, b, Ua, Ub, k, f, x_grid, sol, is_print, is_draw, info)
+```
+```fortran
+subroutine fd_balance_heat_transfer_steady(n, a, b, Ua, Ub, k, f, x_points, sol, is_print, is_draw, info, &
+            psources_)
+```
