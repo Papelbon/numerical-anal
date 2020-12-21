@@ -58,19 +58,21 @@ Time-dependent form:
 ![time-dependent](https://user-images.githubusercontent.com/62307154/102730899-44be6700-4347-11eb-894f-a5c407dacb8e.png)
 1. Finite Difference methods (1D Steady State Heat Equation)
 ```fortran
-subroutine fd_centered_heat_transfer_steady(n, a, b, Ua, Ub, k, f, x_grid, sol, is_print, is_draw, info)
+subroutine fd_centered_heat_transfer_steady(n, a, b, Ua, Ub, k, f, x_grid, sol, &
+            is_print, is_draw, info)
 ```
 ```fortran
-subroutine fd_balance_heat_transfer_steady(n, a, b, Ua, Ub, k, f, x_points, sol, is_print, is_draw, info, &
-            psources_)
+subroutine fd_balance_heat_transfer_steady(n, a, b, Ua, Ub, k, f, x_points, sol, &
+            is_print, is_draw, info, psources_)
 ```
 2. Finite Difference method (Time Dependent 1D Heat Equation using Explicit Time Stepping)
 ```fortran
-subroutine fd_heat_transfer_explicit(n, m, a, b, t, g1, g2, phi, k, f, x_list, t_list, matrix, is_check_cfl, &
-            bc, is_print, is_draw, info)
+subroutine fd_heat_transfer_explicit(n, m, a, b, t, g1, g2, phi, k, f, x_list, t_list, &
+            matrix, is_check_cfl, bc, is_print, is_draw, info)
 ```
 3. Finite Difference method (Time Dependent 1D Heat Equation using Implicit Time Stepping)
 ```fortran
-subroutine fd_heat_transfer_implicit(n, m, a, b, t, g1, g2, phi, k, f, x_list, t_list, matrix, bc, &
-            is_print, is_draw, info)
+subroutine fd_heat_transfer_implicit(n, m, a, b, t, g1, g2, phi, k, f, x_list, t_list, &
+            matrix, bc, is_print, is_draw, info)
 ```
+#### Examples
