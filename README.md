@@ -64,3 +64,13 @@ subroutine fd_centered_heat_transfer_steady(n, a, b, Ua, Ub, k, f, x_grid, sol, 
 subroutine fd_balance_heat_transfer_steady(n, a, b, Ua, Ub, k, f, x_points, sol, is_print, is_draw, info, &
             psources_)
 ```
+2. Finite Difference method (Time Dependent 1D Heat Equation using Explicit Time Stepping)
+```fortran
+subroutine fd_heat_transfer_explicit(n, m, a, b, t, g1, g2, phi, k, f, x_list, t_list, matrix, is_check_cfl, &
+            bc, is_print, is_draw, info)
+```
+3. Finite Difference method (Time Dependent 1D Heat Equation using Implicit Time Stepping)
+```fortran
+subroutine fd_heat_transfer_implicit(n, m, a, b, t, g1, g2, phi, k, f, x_list, t_list, matrix, bc, &
+            is_print, is_draw, info)
+```
