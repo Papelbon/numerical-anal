@@ -49,4 +49,7 @@ subroutine finite_difference_method(AA, BB, x_min, x_max, n, f, a, p, q, alpha1,
 ### Heat Transfer
 Estimate the solution of the time-dependent (time-independent) heat equation over a one dimensional region
 
-Steady form
+Steady form:
+
+![steady](https://user-images.githubusercontent.com/62307154/102727842-60227580-4339-11eb-932b-0bdd187b6b2c.png)
+
