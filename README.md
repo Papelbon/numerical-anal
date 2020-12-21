@@ -51,4 +51,4 @@ Estimate the solution of the time-dependent (time-independent) heat equation ove
 
 Steady form:
 
-![ht_steady](https://user-images.githubusercontent.com/62307154/102728052-ac21ea00-433a-11eb-8159-427b70423560.png)
+![ht_steady](https://user-images.githubusercontent.com/62307154/102730324-69194400-4345-11eb-9b79-c7f54b7daf08.png)
