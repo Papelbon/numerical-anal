@@ -76,3 +76,12 @@ subroutine fd_heat_transfer_implicit(n, m, a, b, t, g1, g2, phi, k, f, x_list, t
             matrix, bc, is_print, is_draw, info)
 ```
 #### Examples
+Modeling of steady-state thermal conductivity processes.
+- [example1](https://github.com/Papelbon/numerical-anal/blob/main/Heat%20Transfer/task1.f90)
+- [example2](https://github.com/Papelbon/numerical-anal/blob/main/Heat%20Transfer/task2.f90)
+Modeling of unsteady-state thermal conductivity processes.
+![task3_3d_2](https://user-images.githubusercontent.com/62307154/102731937-4e959980-434a-11eb-8c02-4cdda2ddb8ce.gif)
+![task3_3d_3](https://user-images.githubusercontent.com/62307154/102731951-5c4b1f00-434a-11eb-8b00-1bc313605605.gif)
+- [example3](https://github.com/Papelbon/numerical-anal/blob/main/Heat%20Transfer/task3.f90)
+- [example4](https://github.com/Papelbon/numerical-anal/blob/main/Heat%20Transfer/task4.f90)
+- [example5](https://github.com/Papelbon/numerical-anal/blob/main/Heat%20Transfer/task5.f90)
