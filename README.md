@@ -47,8 +47,12 @@ subroutine finite_difference_method(AA, BB, x_min, x_max, n, f, a, p, q, alpha1,
 - [example4](https://github.com/Papelbon/numerical-anal/blob/main/Boundary%20Value%20Problem/task4.f90)
 
 ### Heat Transfer
-Estimate the solution of the time-dependent (time-independent) heat equation over a one dimensional region
+Estimate the solution of the time-dependent (time-independent) heat equation over a one dimensional region.
 
-Steady form:
+Time-independent form:
 
-![ht_steady](https://user-images.githubusercontent.com/62307154/102730324-69194400-4345-11eb-9b79-c7f54b7daf08.png)
+![time-independent](https://user-images.githubusercontent.com/62307154/102730324-69194400-4345-11eb-9b79-c7f54b7daf08.png)
+
+Time-dependent form:
+
+![time-dependent](https://user-images.githubusercontent.com/62307154/102730899-44be6700-4347-11eb-894f-a5c407dacb8e.png)
